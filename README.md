@@ -29,4 +29,4 @@ python manage.py runserver
 
 Al ingresar a la dirección IP por defecto, http://127.0.0.1:8000/, se podrá visualizar la siguiente lista:
 
-![Lista de huertos](https://ibb.co/rsxs6kC)
+![Lista de huertos](https://i.ibb.co/nC7CcrH/image.png)
