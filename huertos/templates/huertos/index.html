@@ -3,7 +3,7 @@
 {% block body %}
 <div class="position-relative">
     <div class="position-absolute top-0 start-50 translate-middle-x">
-        <h1><p class="fw-bold">Huertos</p></h1>
+        <h1><p class="fw-bold">Huerto</p></h1>
         {% for huerto in huertos %}
             <h2><a href="">{{ huerto.nombre }}</a></h2>
             <img src="{{ huerto.header_img }}" alt="Imagen de {{ huerto.nombre }}" width="300" height="300">
