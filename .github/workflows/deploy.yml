@@ -21,7 +21,7 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: 22
         source: "."
-        target: "var/www/pakal"
+        target: "/var/www/pakal"
 
     - name: Execute deploy script
       uses: appleboy/ssh-action@master
